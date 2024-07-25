@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:provider/provider.dart';
+import 'package:seaesplore/models/authModel.dart';
 
 class LoginScreenUser extends StatefulWidget {
   const LoginScreenUser({super.key});
@@ -11,6 +13,7 @@ class LoginScreenUser extends StatefulWidget {
 class _LoginScreenUserState extends State<LoginScreenUser> {
   @override
   Widget build(BuildContext context) {
+    final loginAuth = Provider.of<AuthModel>(context);
     return Scaffold(
       body: Container(
         decoration: BoxDecoration(
@@ -33,7 +36,7 @@ class _LoginScreenUserState extends State<LoginScreenUser> {
                     "SeaEsplore",
                     style: TextStyle(fontSize: 36, fontWeight: FontWeight.w500),
                   ),
-                 const  SizedBox(height:15),
+                  const SizedBox(height: 15),
                   const Text(
                     "Scopri le migliori  destinazioni \n estive e avventure sul mare.",
                     style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
@@ -62,6 +65,7 @@ class _LoginScreenUserState extends State<LoginScreenUser> {
                           width: 340,
                           height: 51,
                           child: TextField(
+                            onChanged: (value) => loginAuth.setEmail(value),
                             textAlign: TextAlign.left,
                             textAlignVertical: TextAlignVertical.center,
                             decoration: InputDecoration(
@@ -111,6 +115,7 @@ class _LoginScreenUserState extends State<LoginScreenUser> {
                           width: 340,
                           height: 51,
                           child: TextField(
+                            onChanged: (value) => loginAuth.setPassword(value),
                             textAlign: TextAlign.left,
                             textAlignVertical: TextAlignVertical.center,
                             decoration: InputDecoration(
@@ -160,8 +165,11 @@ class _LoginScreenUserState extends State<LoginScreenUser> {
                         padding:
                             const EdgeInsets.only(top: 95, left: 40, right: 40),
                         child: ElevatedButton(
-                          onPressed: () => {
-                            Get.toNamed('/HomeScreenUser'),
+                          onPressed: (){ 
+                           loginAuth.login();
+                            if (loginAuth.message == 'Accesso eseguito') {
+                              Get.toNamed('/HomeScreenUser');
+                            }
                           },
                           style: ElevatedButton.styleFrom(
                             fixedSize: const Size(370, 51),
@@ -196,7 +204,7 @@ class _LoginScreenUserState extends State<LoginScreenUser> {
                         padding: const EdgeInsets.only(left: 40, right: 40),
                         child: ElevatedButton(
                           onPressed: () => {
-                            Get.toNamed('/HomeScreenUser'),
+                            Get.toNamed('/RegistrationScreenUser')
                           },
                           style: ElevatedButton.styleFrom(
                             fixedSize: const Size(370, 51),
@@ -216,6 +224,10 @@ class _LoginScreenUserState extends State<LoginScreenUser> {
                       ),
                     ],
                   ),
+                   Text(
+              loginAuth.message,
+              style: TextStyle(color: Colors.red),
+            ),
                 ],
               ),
             ),

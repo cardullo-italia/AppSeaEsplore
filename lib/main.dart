@@ -1,9 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
+import 'package:provider/provider.dart';
+import 'package:seaesplore/models/authModel.dart';
 import 'package:seaesplore/router/routers.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    ChangeNotifierProvider(
+      create: (context) => AuthModel(),
+      child: const MyApp()
+    ),);
 }
 
 class MyApp extends StatelessWidget {
