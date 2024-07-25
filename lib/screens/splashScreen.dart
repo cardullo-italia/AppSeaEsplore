@@ -37,19 +37,27 @@ class SplashScreen extends StatelessWidget {
                         text: const TextSpan(
                           children: <TextSpan>[
                             TextSpan(
-                              text: 'Esplora\n',
+                              text: 'Scopri le migliori\n',
                               style: TextStyle(
-                                fontWeight: FontWeight.w400,
+                                fontWeight: FontWeight.w500,
                                 color: Colors.black,
-                                fontSize: 38,
+                                fontSize: 25,
                               ),
                             ),
                             TextSpan(
-                              text: 'il Mondo Estivo',
+                              text: 'destinazioni estive\n',
                               style: TextStyle(
-                                fontWeight: FontWeight.w400,
+                                fontWeight: FontWeight.w500,
                                 color: Colors.black,
-                                fontSize: 38,
+                                fontSize: 25,
+                              ),
+                            ),
+                            TextSpan(
+                              text: 'e avventure sul mare.\n',
+                              style: TextStyle(
+                                fontWeight: FontWeight.w500,
+                                color: Colors.black,
+                                fontSize: 25,
                               ),
                             ),
                           ],
@@ -58,7 +66,7 @@ class SplashScreen extends StatelessWidget {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(top:25 ,left: 30, right: 30),
+                    padding: const EdgeInsets.only(left: 30, right: 30),
                     child: ElevatedButton(
                       onPressed: () => {
                         Get.toNamed('/LoginScreenUser')
