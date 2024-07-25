@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:provider/provider.dart';
-import 'package:seaesplore/models/authModel.dart';
+import 'package:seaesplore/models/regModel.dart';
 
 class RegistrationScreenUser extends StatefulWidget {
   const RegistrationScreenUser({super.key});
@@ -13,7 +13,7 @@ class RegistrationScreenUser extends StatefulWidget {
 class _RegistrationScreenUserState extends State<RegistrationScreenUser> {
   @override
   Widget build(BuildContext context) {
-    final loginAuth = Provider.of<AuthModel>(context);
+    final registrationAuth = Provider.of<RegistrationAuth>(context);
     return Scaffold(
       body: Container(
         decoration: BoxDecoration(
@@ -65,7 +65,8 @@ class _RegistrationScreenUserState extends State<RegistrationScreenUser> {
                           width: 340,
                           height: 51,
                           child: TextField(
-                            onChanged: (value) => loginAuth.setEmail(value),
+                            onChanged: (value) =>
+                                registrationAuth.setEmail(value),
                             textAlign: TextAlign.left,
                             textAlignVertical: TextAlignVertical.center,
                             decoration: InputDecoration(
@@ -115,7 +116,8 @@ class _RegistrationScreenUserState extends State<RegistrationScreenUser> {
                           width: 340,
                           height: 51,
                           child: TextField(
-                            onChanged: (value) => loginAuth.setPassword(value),
+                            onChanged: (value) =>
+                                registrationAuth.setPassword(value),
                             textAlign: TextAlign.left,
                             textAlignVertical: TextAlignVertical.center,
                             decoration: InputDecoration(
@@ -164,7 +166,8 @@ class _RegistrationScreenUserState extends State<RegistrationScreenUser> {
                           width: 340,
                           height: 51,
                           child: TextField(
-                            onChanged: (value) => loginAuth.setPassword(value),
+                            onChanged: (value) =>
+                                registrationAuth.setPasswordConfirm(value),
                             textAlign: TextAlign.left,
                             textAlignVertical: TextAlignVertical.center,
                             decoration: InputDecoration(
@@ -197,9 +200,10 @@ class _RegistrationScreenUserState extends State<RegistrationScreenUser> {
                         padding:
                             const EdgeInsets.only(top: 35, left: 40, right: 40),
                         child: ElevatedButton(
-                          onPressed: (){ 
-                           loginAuth.login();
-                            if (loginAuth.message == 'Accesso eseguito') {
+                          onPressed: () {
+                            registrationAuth.registration();
+                            if (registrationAuth.message ==
+                                'Registration successful') {
                               Get.toNamed('/HomeScreenUser');
                             }
                           },
@@ -211,7 +215,7 @@ class _RegistrationScreenUserState extends State<RegistrationScreenUser> {
                             ),
                           ),
                           child: const Text(
-                            "Accedi",
+                            "Registrati",
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 20,
@@ -235,8 +239,8 @@ class _RegistrationScreenUserState extends State<RegistrationScreenUser> {
                       Padding(
                         padding: const EdgeInsets.only(left: 40, right: 40),
                         child: ElevatedButton(
-                          onPressed: () => {
-                            Get.toNamed('/RegistrationScreenUser')
+                          onPressed: () {
+                            Get.toNamed('/LoginScreenUser');
                           },
                           style: ElevatedButton.styleFrom(
                             fixedSize: const Size(370, 51),
@@ -246,7 +250,7 @@ class _RegistrationScreenUserState extends State<RegistrationScreenUser> {
                             ),
                           ),
                           child: const Text(
-                            "Registrati",
+                            "Accedi",
                             style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 20,
@@ -256,10 +260,10 @@ class _RegistrationScreenUserState extends State<RegistrationScreenUser> {
                       ),
                     ],
                   ),
-                   Text(
-              loginAuth.message,
-              style: TextStyle(color: Colors.red),
-            ),
+                  Text(
+                    registrationAuth.message,
+                    style: const TextStyle(color: Colors.red),
+                  ),
                 ],
               ),
             ),
@@ -267,6 +271,5 @@ class _RegistrationScreenUserState extends State<RegistrationScreenUser> {
         ),
       ),
     );
-
   }
 }

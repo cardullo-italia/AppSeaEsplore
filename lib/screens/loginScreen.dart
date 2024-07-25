@@ -226,7 +226,7 @@ class _LoginScreenUserState extends State<LoginScreenUser> {
                   ),
                    Text(
               loginAuth.message,
-              style: TextStyle(color: Colors.red),
+              style: const TextStyle(color: Colors.red),
             ),
                 ],
               ),
