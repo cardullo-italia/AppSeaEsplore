@@ -29,4 +29,7 @@ class AuthModel with ChangeNotifier {
     }
     notifyListeners();
   }
+
+  
+
 }
