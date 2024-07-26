@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
 import 'package:provider/provider.dart';
 import 'package:seaesplore/models/authModel.dart';
-import 'package:seaesplore/models/regModel.dart';
 import 'package:seaesplore/router/routers.dart';
 
 void main() {
@@ -14,7 +13,6 @@ void main() {
         ChangeNotifierProvider(
           create: (context) => AuthModel(),
         ),
-        ChangeNotifierProvider(create: (context) => RegistrationAuth(),),
       ],
       child: const MyApp(),
     ),

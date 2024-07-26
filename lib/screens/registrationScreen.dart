@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:provider/provider.dart';
-import 'package:seaesplore/models/regModel.dart';
+import 'package:seaesplore/models/authModel.dart';
 
 class RegistrationScreenUser extends StatefulWidget {
   const RegistrationScreenUser({super.key});
@@ -13,7 +13,7 @@ class RegistrationScreenUser extends StatefulWidget {
 class _RegistrationScreenUserState extends State<RegistrationScreenUser> {
   @override
   Widget build(BuildContext context) {
-    final registrationAuth = Provider.of<RegistrationAuth>(context);
+    final registrationAuth = Provider.of<AuthModel>(context);
     return Scaffold(
       body: Container(
         decoration: BoxDecoration(
