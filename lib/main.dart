@@ -1,12 +1,15 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:get/route_manager.dart';
 import 'package:provider/provider.dart';
+import 'package:seaesplore/controller/navigationController.dart';
 import 'package:seaesplore/models/authModel.dart';
 import 'package:seaesplore/router/routers.dart';
 
 void main() {
+   Get.put(NavigationController());
   runApp(
     MultiProvider(
       providers: [

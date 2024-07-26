@@ -65,6 +65,7 @@ class _LoginScreenUserState extends State<LoginScreenUser> {
                           width: 340,
                           height: 51,
                           child: TextField(
+                            autocorrect: false,
                             onChanged: (value) => loginAuth.setEmail(value),
                             textAlign: TextAlign.left,
                             textAlignVertical: TextAlignVertical.center,
@@ -168,7 +169,7 @@ class _LoginScreenUserState extends State<LoginScreenUser> {
                           onPressed: (){ 
                            loginAuth.login();
                             if (loginAuth.message == 'Accesso eseguito') {
-                              Get.toNamed('/HomeScreenUser');
+                              Get.toNamed('/NavigationMenu');
                             }
                           },
                           style: ElevatedButton.styleFrom(
