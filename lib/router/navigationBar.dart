@@ -7,23 +7,41 @@ class NavigationMenuBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final NavigationController controller = Get.find(); 
+    final NavigationController controller = Get.find();
+
     return Scaffold(
-      bottomNavigationBar: Obx(
-        () => NavigationBar(
-          height: 45,
-          elevation: 0,
-          selectedIndex: controller.selectedIndex.value,
-          onDestinationSelected: (index) => controller.selectedIndex.value = index,
-          destinations: const [
-            NavigationDestination(icon: Icon(Icons.home), label: "Home"),
-            NavigationDestination(icon: Icon(Icons.favorite), label: "Preferiti"),
-            NavigationDestination(icon: Icon(Icons.person), label: "Profilo"),
-          ],
-        ),
-      ),
       body: Obx(
         () => controller.screen[controller.selectedIndex.value],
+      ),
+      bottomNavigationBar: Container(
+        decoration: BoxDecoration(
+          color: const Color(0xFF1B263B),
+          borderRadius: BorderRadius.circular(10),
+        ),
+        child: BottomNavigationBar(
+          elevation: 0,
+          currentIndex: controller.selectedIndex.value,
+          onTap: (index) => controller.selectedIndex.value = index,
+          backgroundColor: Colors.transparent,
+          selectedItemColor: Colors.white,
+          unselectedItemColor: Colors.grey,
+          showSelectedLabels: false,
+          showUnselectedLabels: false,
+          items: const [
+            BottomNavigationBarItem(
+              label: "Home",
+              icon: Icon(Icons.home_filled), 
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.favorite_border),
+              label: "Preferiti",
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.person_outline),
+              label: "Profilo",
+            ),
+          ],
+        ),
       ),
     );
   }
