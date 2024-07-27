@@ -38,6 +38,9 @@ flutter:
   assets:
    - assets/sea.jpg
    - assets/background.jpg
+   - assets/api/apiHotel.json
+   - assets/api/apiRistoranti.json
+   - assets/api/apiSpiagge.json
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

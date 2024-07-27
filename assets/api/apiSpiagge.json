@@ -1,0 +1,73 @@
+[
+      {
+        "nome_spiaggia": "Spiaggia dei Conigli",
+        "img_spiaggia": "",
+        "indirizzo": "Lampedusa",
+        "stars": "4.8",
+        "zona": "Catania"
+      },
+      {
+        "nome_spiaggia": "Cala Rossa",
+        "img_spiaggia": "",
+        "indirizzo": "Favignana",
+        "stars": "4.7",
+        "zona": "Catania"
+      },
+      {
+        "nome_spiaggia": "Baia del Silenzio",
+        "img_spiaggia": "",
+        "indirizzo": "Sestri Levante",
+        "stars": "4.9",
+        "zona": "Catania"
+      },
+      {
+        "nome_spiaggia": "Spiaggia di Sansone",
+        "img_spiaggia": "",
+        "indirizzo": "Isola d'Elba",
+        "stars": "4.6",
+        "zona": "Catania"
+      },
+      {
+        "nome_spiaggia": "Spiaggia della Pelosa",
+        "img_spiaggia": "",
+        "indirizzo": "Stintino",
+        "stars": "4.8",
+        "zona": "Catania"
+      },
+      {
+        "nome_spiaggia": "Spiaggia di Tropea",
+        "img_spiaggia": "",
+        "indirizzo": "Tropea",
+        "stars": "4.7",
+        "zona": "Catania"
+      },
+      {
+        "nome_spiaggia": "Cala Goloritzé",
+        "img_spiaggia": "",
+        "indirizzo": "Baunei",
+        "stars": "4.9",
+        "zona": "Catania"
+      },
+      {
+        "nome_spiaggia": "Spiaggia delle Due Sorelle",
+        "img_spiaggia": "",
+        "indirizzo": "Sirolo",
+        "stars": "4.6",
+        "zona": "Catania"
+      },
+      {
+        "nome_spiaggia": "Spiaggia di Cala Mariolu",
+        "img_spiaggia": "",
+        "indirizzo": "Baunei",
+        "stars": "4.8",
+        "zona": "Catania"
+      },
+      {
+        "nome_spiaggia": "Spiaggia di Marina Piccola",
+        "img_spiaggia": "",
+        "indirizzo": "Capri",
+        "stars": "4.7",
+        "zona": "Catania"
+      }
+]
+  

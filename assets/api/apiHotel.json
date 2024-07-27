@@ -1,0 +1,73 @@
+[
+      {
+        "nome": "Hotel Villa del Bosco",
+        "img_hotel_bnb": "",
+        "indirizzo": "Via del Bosco 5",
+        "stars": "4.2",
+        "zona": "Catania"
+      },
+      {
+        "nome": "B&B Il Faro",
+        "img_hotel_bnb": "",
+        "indirizzo": "Via delle Sirene 3",
+        "stars": "4.5",
+        "zona": "Catania"
+      },
+      {
+        "nome": "Hotel Excelsior",
+        "img_hotel_bnb": "",
+        "indirizzo": "Corso Italia 10",
+        "stars": "4.0",
+        "zona": "Catania"
+      },
+      {
+        "nome": "B&B La Terrazza",
+        "img_hotel_bnb": "",
+        "indirizzo": "Via Roma 12",
+        "stars": "4.3",
+        "zona": "Catania"
+      },
+      {
+        "nome": "Hotel Catania Center",
+        "img_hotel_bnb": "",
+        "indirizzo": "Via Vittorio Emanuele 20",
+        "stars": "3.9",
+        "zona": "Catania"
+      },
+      {
+        "nome": "B&B Casa di Nonna",
+        "img_hotel_bnb": "",
+        "indirizzo": "Via San Giuseppe 7",
+        "stars": "4.4",
+        "zona": "Catania"
+      },
+      {
+        "nome": "Hotel Nettuno",
+        "img_hotel_bnb": "",
+        "indirizzo": "Lungomare 8",
+        "stars": "4.1",
+        "zona": "Catania"
+      },
+      {
+        "nome": "B&B Dolce Vita",
+        "img_hotel_bnb": "",
+        "indirizzo": "Via Dante 22",
+        "stars": "4.6",
+        "zona": "Catania"
+      },
+      {
+        "nome": "Hotel Antica Storia",
+        "img_hotel_bnb": "",
+        "indirizzo": "Via Etnea 25",
+        "stars": "4.2",
+        "zona": "Catania"
+      },
+      {
+        "nome": "B&B Eleganza",
+        "img_hotel_bnb": "",
+        "indirizzo": "Via Nazioni Unite 15",
+        "stars": "4.7",
+        "zona": "Catania"
+      }
+]
+  
