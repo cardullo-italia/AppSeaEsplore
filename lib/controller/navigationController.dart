@@ -11,5 +11,5 @@ class NavigationController extends GetxController {
     const HomeScreenUser(),
     const PrefScreenUser(),
     const ProfileScreenUser(),
-    ];
+  ];
 }

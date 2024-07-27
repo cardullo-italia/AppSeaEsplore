@@ -10,6 +10,8 @@ class TabBarHotelScreen extends StatefulWidget {
 class _TabBarHotelScreenState extends State<TabBarHotelScreen> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Container(
+      child: Text("Hola")
+    );
   }
 }

@@ -39,8 +39,8 @@ class _HomeScreenUserState extends State<HomeScreenUser> {
                 ],
               ),
             ),
-            const SizedBox(height:15),
-            const Expanded(
+            const SizedBox(height:20),
+             Expanded(
               child: TabBarNavigation(),
             )
           ],

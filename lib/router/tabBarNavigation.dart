@@ -5,33 +5,42 @@ import 'package:seaesplore/screens/tabBarScreen/ristorantiScreen.dart';
 import 'package:seaesplore/screens/tabBarScreen/spiaggeScreen.dart';
 
 class TabBarNavigation extends StatelessWidget {
-  const TabBarNavigation({super.key});
+   TabBarNavigation({super.key});
 
   @override
   Widget build(BuildContext context) {
     return const DefaultTabController(
+      initialIndex: 0,
       length: 3,
       child: Column(
         children: [
           TabBar(
-            indicatorColor: Colors.transparent, 
+            indicatorColor: Colors.transparent,
             indicator: BoxDecoration(),
-            labelColor: Colors.black, 
-            unselectedLabelColor: Colors.grey, 
-            isScrollable: true, 
-            dividerHeight: 0, 
+            labelColor: Colors.black,
+            unselectedLabelColor: Colors.grey,
+            isScrollable: false,
+            dividerHeight: 0,
+            mouseCursor: SystemMouseCursors.none,
             tabs: [
-              TabButton(text: "Ristoranti"),
-              TabButton(text: "Spiagge"),
-              TabButton(text: "Hotel"),
+              Tab(
+                child: TabButton(text: "Ristoranti"),
+              ),
+              Tab(
+                child: TabButton(text: "Spiagge"),
+              ),
+              Tab(
+                child: TabButton(text: "Hotel"),
+              )
             ],
           ),
+          SizedBox(height: 24),
           Expanded(
             child: TabBarView(
               children: [
                 TabBarScreenRistoranti(),
-                TabBarHotelScreen(),
                 TabBarSpiaggeScreen(),
+                TabBarHotelScreen(),
               ],
             ),
           ),

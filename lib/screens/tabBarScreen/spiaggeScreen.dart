@@ -11,8 +11,7 @@ class _TabBarSpiaggeScreenState extends State<TabBarSpiaggeScreen> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child:
-      Text("Addio")
+      child: Text("Addio")
     );
   }
 }
