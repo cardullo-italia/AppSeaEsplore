@@ -16,7 +16,7 @@ dependencies:
 
 
 
-  cupertino_icons: ^1.0.2
+  cupertino_icons: ^1.0.8
   get: ^4.6.6
   provider: ^6.1.2
 
