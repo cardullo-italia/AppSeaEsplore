@@ -1,73 +1,72 @@
 [
-      {
-        "nome_spiaggia": "Spiaggia dei Conigli",
-        "img_spiaggia": "",
-        "indirizzo": "Lampedusa",
-        "stars": "4.8",
-        "zona": "Catania"
-      },
-      {
-        "nome_spiaggia": "Cala Rossa",
-        "img_spiaggia": "",
-        "indirizzo": "Favignana",
-        "stars": "4.7",
-        "zona": "Catania"
-      },
-      {
-        "nome_spiaggia": "Baia del Silenzio",
-        "img_spiaggia": "",
-        "indirizzo": "Sestri Levante",
-        "stars": "4.9",
-        "zona": "Catania"
-      },
-      {
-        "nome_spiaggia": "Spiaggia di Sansone",
-        "img_spiaggia": "",
-        "indirizzo": "Isola d'Elba",
-        "stars": "4.6",
-        "zona": "Catania"
-      },
-      {
-        "nome_spiaggia": "Spiaggia della Pelosa",
-        "img_spiaggia": "",
-        "indirizzo": "Stintino",
-        "stars": "4.8",
-        "zona": "Catania"
-      },
-      {
-        "nome_spiaggia": "Spiaggia di Tropea",
-        "img_spiaggia": "",
-        "indirizzo": "Tropea",
-        "stars": "4.7",
-        "zona": "Catania"
-      },
-      {
-        "nome_spiaggia": "Cala Goloritzé",
-        "img_spiaggia": "",
-        "indirizzo": "Baunei",
-        "stars": "4.9",
-        "zona": "Catania"
-      },
-      {
-        "nome_spiaggia": "Spiaggia delle Due Sorelle",
-        "img_spiaggia": "",
-        "indirizzo": "Sirolo",
-        "stars": "4.6",
-        "zona": "Catania"
-      },
-      {
-        "nome_spiaggia": "Spiaggia di Cala Mariolu",
-        "img_spiaggia": "",
-        "indirizzo": "Baunei",
-        "stars": "4.8",
-        "zona": "Catania"
-      },
-      {
-        "nome_spiaggia": "Spiaggia di Marina Piccola",
-        "img_spiaggia": "",
-        "indirizzo": "Capri",
-        "stars": "4.7",
-        "zona": "Catania"
-      }
+  {
+    "nome_spiaggia": "Spiaggia di Cala Mariolu",
+    "img_spiaggia": "https://i.pinimg.com/474x/23/5a/a1/235aa19beb875510f86dd62f128eaa3f.jpg",
+    "indirizzo": "Baunei",
+    "stars": "4.8",
+    "zona": "Catania"
+  },
+  {
+    "nome_spiaggia": "Spiaggia di Marina Piccola",
+    "img_spiaggia": "https://i.pinimg.com/474x/76/4a/07/764a07be631828e13cc4e5fff0e4b5db.jpg",
+    "indirizzo": "Capri",
+    "stars": "4.7",
+    "zona": "Catania"
+  },
+  {
+    "nome_spiaggia": "Spiaggia dei Conigli",
+    "img_spiaggia": "https://i.pinimg.com/474x/38/bf/8f/38bf8f94408c3206f86bb6d068e4d7d8.jpg",
+    "indirizzo": "Lampedusa",
+    "stars": "4.8",
+    "zona": "Catania"
+  },
+  {
+    "nome_spiaggia": "Cala Rossa",
+    "img_spiaggia": "https://i.pinimg.com/474x/02/9b/04/029b04a912a1bc542761b2a24f046db0.jpg",
+    "indirizzo": "Favignana",
+    "stars": "4.7",
+    "zona": "Catania"
+  },
+  {
+    "nome_spiaggia": "Baia del Silenzio",
+    "img_spiaggia": "https://i.pinimg.com/474x/64/8e/2b/648e2b4aabeb61ecf796c3f57b918b31.jpg",
+    "indirizzo": "Sestri Levante",
+    "stars": "4.9",
+    "zona": "Catania"
+  },
+  {
+    "nome_spiaggia": "Spiaggia di Sansone",
+    "img_spiaggia": "https://i.pinimg.com/474x/bd/69/ad/bd69adc14fac041cd9c4099781e605f4.jpg",
+    "indirizzo": "Isola d'Elba",
+    "stars": "4.6",
+    "zona": "Catania"
+  },
+  {
+    "nome_spiaggia": "Spiaggia della Pelosa",
+    "img_spiaggia": "https://i.pinimg.com/474x/57/da/1d/57da1db47a30fe8d608da6d3b25dfc08.jpg",
+    "indirizzo": "Stintino",
+    "stars": "4.8",
+    "zona": "Catania"
+  },
+  {
+    "nome_spiaggia": "Spiaggia di Tropea",
+    "img_spiaggia": "https://i.pinimg.com/474x/f9/1e/19/f91e19d53bec32f182865f2f1888e791.jpg",
+    "indirizzo": "Tropea",
+    "stars": "4.7",
+    "zona": "Catania"
+  },
+  {
+    "nome_spiaggia": "Cala Goloritzé",
+    "img_spiaggia": "https://i.pinimg.com/474x/82/f6/38/82f638c0b5f0b20bbe9d64f9fc3bef8b.jpg",
+    "indirizzo": "Baunei",
+    "stars": "4.9",
+    "zona": "Catania"
+  },
+  {
+    "nome_spiaggia": "Spiaggia delle Due Sorelle",
+    "img_spiaggia": "https://i.pinimg.com/474x/a0/07/09/a0070946d10c7b35185a6fdbbf85549f.jpg",
+    "indirizzo": "Sirolo",
+    "stars": "4.6",
+    "zona": "Catania"
+  }
 ]
-  
