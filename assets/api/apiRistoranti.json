@@ -1,98 +1,98 @@
 [
     {
         "nome_ristorante":"Ristorante Marino",
-        "img_ristorante":"",
+        "img_ristorante":"https://i.pinimg.com/474x/16/7e/a3/167ea35d3d5cf8f4c7ea065191b2ecf3.jpg",
         "indirizzo":"Via coniglio bianco",
         "stars":"4.5",
         "zona":"Catania"
     },
     {
         "nome_ristorante":"Le meduse",
-        "img_ristorante":"",
+        "img_ristorante":"https://i.pinimg.com/474x/98/b8/15/98b81528150b482878ece6f6b97c35e9.jpg",
         "indirizzo":"Via gelsomino",
         "stars":"3.4",
         "zona":"Catania"
     },
     {
-        "nome_ristorante": "Trattoria da Nino",
-        "img_ristorante": "",
+        "nome_ristorante":"Trattoria da Nino",
+        "img_ristorante":"https://i.pinimg.com/474x/48/8f/e0/488fe0064fe8e97e8d6ee0dd5bb50d63.jpg",
         "indirizzo": "Via delle Rose",
         "stars": "4.7",
         "zona": "Catania"
       },
       {
         "nome_ristorante": "Osteria del Mare",
-        "img_ristorante": "",
+        "img_ristorante": "https://i.pinimg.com/474x/76/bf/3d/76bf3dd2a9ecec7ff122e09b537493a9.jpg",
         "indirizzo": "Via del Mare",
         "stars": "4.2",
         "zona": "Catania"
       },
       {
         "nome_ristorante": "La Pergola",
-        "img_ristorante": "",
+        "img_ristorante": "https://i.pinimg.com/474x/25/cc/f5/25ccf50eeb06e4c981fb05ca8cad782c.jpg",
         "indirizzo": "Via dei Glicini",
         "stars": "4.0",
         "zona": "Catania"
       },
       {
         "nome_ristorante": "Il Pescatore",
-        "img_ristorante": "",
+        "img_ristorante": "https://i.pinimg.com/474x/43/b0/32/43b0326f0a079c430d7f7f687062176c.jpg",
         "indirizzo": "Via del Porto",
         "stars": "3.8",
         "zona": "Catania"
       },
       {
         "nome_ristorante": "Ristorante Bellavista",
-        "img_ristorante": "",
+        "img_ristorante": "https://i.pinimg.com/474x/54/e1/af/54e1af466d036e17d0ab9f85f2d70600.jpg",
         "indirizzo": "Via Panorama",
         "stars": "4.9",
         "zona": "Catania"
       },
       {
         "nome_ristorante": "La Cantina",
-        "img_ristorante": "",
+        "img_ristorante": "https://i.pinimg.com/474x/d9/42/33/d94233d16b740dec5a8f30234b13385a.jpg",
         "indirizzo": "Via del Vino",
         "stars": "4.6",
         "zona": "Catania"
       },
       {
         "nome_ristorante": "Pizzeria Napoli",
-        "img_ristorante": "",
+        "img_ristorante": "https://i.pinimg.com/474x/0a/4e/95/0a4e953a507dc46d42086d2eb6eac0be.jpg",
         "indirizzo": "Via Napoli",
         "stars": "4.8",
         "zona": "Catania"
       },
       {
         "nome_ristorante": "Bistro Firenze",
-        "img_ristorante": "",
+        "img_ristorante": "https://i.pinimg.com/474x/35/8b/f0/358bf0d178d31fd9d9d4902b51f2886c.jpg",
         "indirizzo": "Via Firenze",
         "stars": "4.0",
         "zona": "Catania"
       },
       {
         "nome_ristorante": "Il Gusto",
-        "img_ristorante": "",
+        "img_ristorante": "https://i.pinimg.com/474x/e5/e0/fa/e5e0fa670e1b02a6283bff9cf8912cf6.jpg",
         "indirizzo": "Via del Gusto",
         "stars": "4.7",
         "zona": "Catania"
       },
       {
         "nome_ristorante": "Ristorante Venezia",
-        "img_ristorante": "",
+        "img_ristorante": "https://i.pinimg.com/474x/74/1b/77/741b777699a49e1bb3ee7c4d7af8bdb8.jpg",
         "indirizzo": "Piazza San Marco",
         "stars": "4.9",
         "zona": "Catania"
       },
       {
         "nome_ristorante": "La Dolce Vita",
-        "img_ristorante": "",
+        "img_ristorante": "https://i.pinimg.com/474x/0c/b4/7d/0cb47dbb013269b03de76da51b75ba96.jpg",
         "indirizzo": "Via del Corso",
         "stars": "4.6",
         "zona": "Catania"
       },
       {
         "nome_ristorante": "Ristorante Gourmet",
-        "img_ristorante": "",
+        "img_ristorante": "https://i.pinimg.com/474x/74/1b/77/741b777699a49e1bb3ee7c4d7af8bdb8.jpg",
         "indirizzo": "Corso Italia",
         "stars": "4.4",
         "zona": "Catania"

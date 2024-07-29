@@ -31,7 +31,7 @@ class _HomeScreenUserState extends State<HomeScreenUser> {
                   SizedBox(height: 5),
                   Row(
                     children: [
-                      Icon(CupertinoIcons.location),
+                      Icon(Icons.location_pin),
                       SizedBox(width: 5),
                       LocationDrop()
                     ],
