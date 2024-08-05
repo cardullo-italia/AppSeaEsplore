@@ -10,9 +10,9 @@ class PrefScreenUser extends StatefulWidget {
 class _PrefScreenUserState extends State<PrefScreenUser> {
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return const Column(
       children: [
-        
+        Text("Lavori in corso")
       ],
     );
   }
