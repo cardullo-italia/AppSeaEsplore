@@ -10,6 +10,10 @@ class PrefScreenUser extends StatefulWidget {
 class _PrefScreenUserState extends State<PrefScreenUser> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Column(
+      children: [
+        
+      ],
+    );
   }
 }

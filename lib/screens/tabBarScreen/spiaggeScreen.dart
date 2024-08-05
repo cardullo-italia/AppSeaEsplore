@@ -41,8 +41,7 @@ class _TabBarSpiaggeScreenState extends State<TabBarSpiaggeScreen> {
             itemBuilder: (context, index) {
               Spiaggie spiaggia = snapshot.data![index];
               return Padding(
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 20),
+                padding: const EdgeInsets.symmetric(horizontal: 20),
                 child: Container(
                   width: 252,
                   height: 310,
@@ -100,9 +99,8 @@ class _TabBarSpiaggeScreenState extends State<TabBarSpiaggeScreen> {
                         Align(
                           alignment: Alignment.bottomCenter,
                           child: Text(
-                            
                             spiaggia.nameSpiaggia,
-                            style: const TextStyle( 
+                            style: const TextStyle(
                               fontSize: 17,
                               fontWeight: FontWeight.w700,
                               color: Colors.black,
